@@ -1,0 +1,15 @@
+{
+  "id" : "https://fabiorovigo.github.io/Project-IIIF-June/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in fabiorovigo/Project-IIIF-June project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "id" : "https://fabiorovigo.github.io/Project-IIIF-June/manifests/manifest(1).json",
+    "label" : {
+      "en" : [ "Maps of Tirol" ]
+    },
+    "type" : "Manifest"
+  } ]
+}
