@@ -1,0 +1,11 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://fabiorovigo.github.io/Project-IIIF-June/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in fabiorovigo/Project-IIIF-June project"
+        ]
+    },
+    "items": []
+}
