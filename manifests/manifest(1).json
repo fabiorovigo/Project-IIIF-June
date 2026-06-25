@@ -1,0 +1,115 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://fabiorovigo.github.io/Project-IIIF-June/manifests/manifest(1).json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Maps of Tirol" ]
+  },
+  "items" : [ {
+    "id" : "https://example.org/pn0r1fonr4i-mqtgjyx9/canvas/855zpavvff4-mqti2hq2",
+    "type" : "Canvas",
+    "height" : 1673,
+    "width" : 2047,
+    "label" : {
+      "en" : [ "Handkarte der gefürsteten Grafschaft Tirol mit dem Lande Vorarlberg " ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "Author" ]
+      },
+      "value" : {
+        "en" : [ "Schober, Karl  http://vocab.getty.edu/page/aat/300025593" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Date" ]
+      },
+      "value" : {
+        "en" : [ "1899" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Place " ]
+      },
+      "value" : {
+        "en" : [ "Vienna" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Title (english)" ]
+      },
+      "value" : {
+        "en" : [ "Map of the Princely County of Tyrol with the Land of Vorarlberg" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Title (original)" ]
+      },
+      "value" : {
+        "en" : [ "Handkarte der gefürsteten Grafschaft Tirol mit dem Lande Vorarlberg " ]
+      }
+    } ],
+    "summary" : {
+      "en" : [ "Map of the Princely County of Tyrol and the Territory of Vorarlberg, created by the cartographer Karl Schober and published in Vienna in 1899" ]
+    },
+    "rights" : "http://creativecommons.org/licenses/by-nc/4.0/",
+    "thumbnail" : [ {
+      "id" : "https://iiif.archive.org/image/iiif/2/ac-04003459-3%2fAC04003459(3).jpg/full/512,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 418,
+      "width" : 512
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/pn0r1fonr4i-mqtgjyx9/canvas/855zpavvff4-mqti2hq2/annotation-page/tcv0gqydbmf-mqti2hq2",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/pn0r1fonr4i-mqtgjyx9/annotation/y6grwwgrr6-mqti2hq1",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/pn0r1fonr4i-mqtgjyx9/canvas/855zpavvff4-mqti2hq2",
+        "body" : {
+          "id" : "https://iiif.archive.org/image/iiif/2/ac-04003459-3%2fAC04003459(3).jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1673,
+          "width" : 2047,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/2/ac-04003459-3%2fAC04003459(3).jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 2047,
+            "height" : 1673,
+            "sizes" : [ {
+              "width" : 128,
+              "height" : 105
+            }, {
+              "width" : 256,
+              "height" : 209
+            }, {
+              "width" : 512,
+              "height" : 418
+            }, {
+              "width" : 1024,
+              "height" : 837
+            }, {
+              "width" : 2047,
+              "height" : 1673
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 3424631,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          } ]
+        }
+      } ]
+    } ]
+  } ]
+}
